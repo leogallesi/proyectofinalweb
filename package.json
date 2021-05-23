@@ -1,0 +1,18 @@
+{
+  "name": "json",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "node-sass --include-path scss css/stylesheet.scss css/stylesheet.css",
+    "build-css-colors": "node-sass --include-path scss css/colors.scss css/colors.css",
+ 	  "watch-css": "nodemon -e scss -x \"npm run build-css\"",
+    "watch-css-colors": "nodemon -e scss -x \"npm run build-css-colors\""
+  },
+  "author": "leonela",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^6.0.0",
+    "nodemon": "^2.0.7"
+  }
+}
