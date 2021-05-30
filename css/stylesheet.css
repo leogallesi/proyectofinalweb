@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
 /* Nav Bar */
 header nav .flexNavBar {
   display: flex;
@@ -32,9 +34,9 @@ header {
   height: 200px;
   padding: 10px; }
 
-/* Body */
-body {
-  font-family: 'Montserrat'; }
+/* Font family entire page */
+* {
+  font-family: 'Montserrat', sans-serif; }
 
 p {
   color: black;
@@ -50,7 +52,6 @@ p {
 h2 {
   color: #d82e83;
   font-size: 30px;
-  font-weight: bold;
   text-decoration: none;
   text-align: left;
   background-color: transparent; }
@@ -58,7 +59,6 @@ h2 {
 h1 {
   color: #d82e83;
   font-size: 60px;
-  font-weight: bold;
   text-decoration: none;
   text-align: center;
   text-transform: none;
@@ -82,7 +82,7 @@ section {
   padding: 16px;
   margin-bottom: 16px; }
 
-#seccion5 {
+#seccion4 {
   margin-bottom: 0px; }
 
 /* Table */
