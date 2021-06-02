@@ -49,7 +49,7 @@ p {
   background-color: transparent; }
 
 /* Titles */
-h2 {
+h2, .contactoh1 {
   color: #d82e83;
   font-size: 30px;
   text-decoration: none;
@@ -64,6 +64,9 @@ h1 {
   text-transform: none;
   background-color: transparent;
   margin: 24px; }
+
+.contactoh1 {
+  margin-left: 0px; }
 
 .subtitulo {
   color: #741846;
@@ -84,6 +87,9 @@ section {
 
 #seccion4 {
   margin-bottom: 0px; }
+
+#seccionContacto {
+  bottom: 0; }
 
 /* Table */
 table {
@@ -148,6 +154,9 @@ video {
   grid-area: comment;
   resize: none; }
 
+.lastLabel {
+  margin-top: 24px; }
+
 @media (max-width: 768px) {
   #grid {
     display: inline-block; }
@@ -164,33 +173,39 @@ video {
     margin-bottom: 6px; } }
 
 /* Footer */
-footer {
+footer, .contactoFooter {
   width: 100%;
   height: 100px;
   background-image: linear-gradient(#f5e6eb, #d82e83);
   display: inline-block; }
-  footer div {
+  footer div, .contactoFooter div {
     margin: auto;
     width: 100%;
     text-align: center;
     padding: 10px; }
-  footer img {
+  footer img, .contactoFooter img {
     width: 50px;
     height: 50px;
     margin-left: 25px;
     margin-right: 25px; }
 
+.contactoFooter {
+  position: fixed;
+  bottom: 0; }
+
 @media (min-width: 768px) {
-  footer img:hover {
+  footer img:hover, .contactoFooter img:hover {
     transition: 0.5s;
     width: 65px;
     height: 65px; } }
 
 @media (max-width: 768px) {
-  footer {
+  footer, .contactoFooter {
     height: 65px; }
-    footer img {
+    footer img, .contactoFooter img {
       width: 35px;
       height: 35px;
       margin-left: 10px;
-      margin-right: 10px; } }
+      margin-right: 10px; }
+  .contactoFooter {
+    position: relative; } }

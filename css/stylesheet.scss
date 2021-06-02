@@ -71,6 +71,10 @@ h1 {
 	background-color: transparent;
 	margin: 24px;
 }
+.contactoh1 {
+	@extend h2;
+	margin-left: 0px;
+}
 .subtitulo {
 	color: $dark-pink;
 	font-size: 20px;
@@ -90,6 +94,9 @@ section {
 }
 #seccion4 {
 	margin-bottom: 0px;
+}
+#seccionContacto {
+	bottom: 0;
 }
 /* Table */
 table {
@@ -160,6 +167,9 @@ video {
 	grid-area: comment;
 	resize: none;
 }
+.lastLabel {
+	margin-top: 24px;
+}
 @media ( max-width: 768px ) { 
 	#grid {
 		display: inline-block;
@@ -200,6 +210,11 @@ footer {
 		margin-right: 25px;
 	}
 }
+.contactoFooter {
+	position: fixed;
+	bottom: 0;
+	@extend footer;
+}
 @media( min-width: 768px ) { 
 	footer img:hover {
 		transition: 0.5s;
@@ -216,5 +231,8 @@ footer {
 			margin-left: 10px;
 			margin-right: 10px;
 		}
+	}
+	.contactoFooter {
+		position: relative;
 	}
 }
